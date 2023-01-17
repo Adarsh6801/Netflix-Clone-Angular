@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #000000;
+}
+.header-nav{
+    display: flex;
+}
+.properties{
+    padding-left: 120px;
+    margin-top: 5px;
+}
+.logo {
+    position: fixed;
+    left: 20px;
+    width: 80px;
+    padding-bottom: 2px;
+  }
